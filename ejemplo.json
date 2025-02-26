@@ -1,0 +1,46 @@
+{
+    "video": {
+      "duration": 35,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "background": "#0d0d0d",
+      "elements": [
+        {
+          "type": "text",
+          "content": "MarCodev",
+          "font": "monospace",
+          "size": 72,
+          "color": "#00ffcc",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "animation": {
+            "type": "typing",
+            "duration": 3
+          }
+        },
+        {
+          "type": "code_effect",
+          "language": "javascript",
+          "content": "console.log('Hello, MarCodev!');",
+          "position": {
+            "x": "center",
+            "y": "bottom"
+          },
+          "animation": {
+            "type": "fade_in",
+            "duration": 2
+          }
+        },
+        {
+          "type": "background_effect",
+          "style": "matrix_rain",
+          "color": "#00ff00",
+          "speed": "medium"
+        }
+      ]
+    }
+  }
+  
